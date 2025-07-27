@@ -9,7 +9,7 @@
         <div class="flex flex-col">
             <h1 class="text-gray-500">Task</h1>
             <input v-model="taskText" type="text" placeholder="What needs to be done?"
-                class="px-10 py-2 placeholder:text-gray-500 rounded-lg border border-gray-500">
+                class="px-3 md:px-10 py-2  placeholder:text-gray-500 rounded-lg border border-gray-500">
         </div>
 
         <div class="flex flex-col w-full gap-4">
