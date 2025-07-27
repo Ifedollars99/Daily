@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="bg-gray-200 w-full h-full md:h-screen flex flex-col items-center justify-start py-5 px-10">
+    <div class="bg-gray-200 w-full h-screen md:h-full flex flex-col items-center justify-start py-5 px-10">
       <h1 class="text-black text-5xl self-start">Tasks</h1>
 
       <div class="w-full mt-8">
