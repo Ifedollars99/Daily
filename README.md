@@ -1,44 +1,40 @@
 ## ✅ MyProjectName
-This project is name is called Ifedollars Portfolio.
+This project is name is called Daily Done.
 
 # Portolio 
-![Weather](./public/images/ife8.png)
+![Weather](./public/images/daily.png)
 
 
 # Summary
-A bold, modern portfolio showcasing my frontend skills, design sense, and real-world projects. Built with Vue.js and Tailwind CSS, it reflects my style, attention to detail, and passion for building websites that stands out.
+A clean, modern task management application built with Vue.js and Tailwind CSS. Features an intuitive interface for organizing daily tasks with priority levels and flexible scheduling options.
 
-## ✨ Features
-The portfolio includes the following powerful and polished features:
-
-📍 Location Search
-Autocomplete-enabled city search with worldwide coverage and precise weather details
-
-🌤️ Current Conditions
-Displays real-time temperature, feels-like, humidity, wind speed, and visibility
-
-📡 Live Updates
-Automatically refreshes data to keep conditions up to date
-
-🌅 Sunrise & Sunset Times
-Elegant display of golden hour and daily transition moments
-
-🌡️ Air Quality Index (AQI)
-PM2.5 levels shown with intuitive color coding for quick health reference
-
+# ✨ Features
+The task manager includes the following powerful and user-friendly features:
+📝 Task Creation & Management
+Create, edit, and delete tasks with a simple, intuitive interface
+📅 Flexible Scheduling
+Choose from preset options (Today, Tomorrow) or select custom dates for any task
+🎯 Priority System
+Organize tasks with High, Medium, and Low priority levels with visual color coding
+✏️ Edit Functionality
+Modify existing tasks including text, dates, and priority levels seamlessly
+💾 Local Storage
+Automatically saves all tasks locally - your data persists even after page refreshes
 📱 Fully Responsive Design
-Optimized layout that adapts seamlessly to mobile, tablet, and desktop screens
+Optimized layout that works perfectly on mobile, tablet, and desktop screens
+🎨 Modern UI/UX
+Clean glassmorphism design with smooth animations and hover effects
+
 
 ## 🛠️ Technologies Used
-
 | Category        | Technologies                          |
 |-----------------|---------------------------------------|
 | 🖥️ Frontend     | Vue 3, Tailwind CSS, Hero Icons       |
-| 🎨 Styling      | Tailwind CSS, Custom Gradients, AOS   |
-| 🚀 Build Tools  | 	Vite                                |
+| 🎨 Styling      | Tailwind CSS, AOS                     |
+| 🚀 Build Tools  | 	Vite                                 |
 | 🧠 State Mgm    | VueUse                                | 
-| 💌 Form Handlin | Formspree(for contact form submissions)|
-| 🌍 Deployment   | Vercel                                 |
+| 💾 Data Storage | Local Storage API                     | 
+| 🌍 Deployment   | Vercel                                |
 
 ## 🚀 Installation
 

@@ -1,5 +1,5 @@
 {
-  "name": "ifedollars",
+  "name": "daily",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "@vueuse/core": "^13.5.0",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "autoprefixer": "^10",

@@ -8,6 +8,10 @@ const routes = [
   {
     path: '/about',
     component: () => import('../views/AboutView.vue')
+  },
+  {
+    path: '/first',
+    component: () => import('../views/AddTaskModal.vue')
   }
 ]
 
