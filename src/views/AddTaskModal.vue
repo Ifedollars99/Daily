@@ -1,7 +1,7 @@
 <template>
     <div
         class="absolute top-32 right-10 md:top-24 md:right-20  bg-white/30 backdrop-blur-md rounded-2xl shadow-lg z-50 px-8 py-3 w-5/6 md:w-2/5 h-[500px] flex items-start gap-5 justify-start flex-col">
-        <router-link to="/" class="bi bi-x-square text-black text-4xl font-bold self-start"></router-link>
+        <button @click="$emit('close-modal')" class="bi bi-x-square text-black text-4xl font-bold self-start"></button>
         <p class="text-4xl text-black font-bold self-center">
             {{ props.editingTask ? 'Edit Task' : 'Add Task' }}
         </p>

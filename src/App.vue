@@ -1,13 +1,13 @@
 <template>
   <main>
-    <div class="bg-gray-200 w-full h-screen flex flex-col items-center justify-start py-5 px-10">
-      <h1 class="text-black text-5xl self-start">Tasks</h1>
+    <div class=" flex flex-col items-center justify-start py-5 px-10">
+      <h1 class="text-blue-700 text-4xl md:text-7xl self-start font-bold">Tasks</h1>
 
       <div class="w-full mt-8">
         <div v-if="tasks.length === 0" class="text-center py-20" data-aos="fade-left">
           <img src="https://i.pinimg.com/736x/43/3a/17/433a1720cd3a24cb8aedecda049ee0b3.jpg" alt=""
-            class="mx-auto mb-4 hover:scale-110">
-          <h1 class="text-gray-700 text-2xl">Add your Tasks in the blue button below</h1>
+            class="mx-auto mb-4 animate-bounce">
+          <h1 class="text-blue-700 text-2xl md:text-4xl mt-10 font-bold">Add your Tasks in the blue button below</h1>
         </div>
 
         <div v-else class="space-y-4" data-aos="fade-up">
@@ -41,7 +41,7 @@
         </div>
       </div>
 
-      <button @click="showModal = true" data-aos="fade-up"
+      <button @click="showModal = true"
         class="fixed bottom-6 right-6 bg-blue-800 text-white px-4 py-2 md:px-7 md:py-5 shadow-lg transition duration-300 hover:scale-110 z-50 rounded-xl">
         <i class="bi bi-plus-lg text-5xl text-white"></i>
       </button>
